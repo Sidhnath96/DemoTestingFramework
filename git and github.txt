@@ -1,0 +1,62 @@
+Git and Github
+
+Create GitHub account 
+id : sidhpakhare96@gmail.com
+pass : Sidhanath@123
+
+create new repository name: DemoTestingFramework
+GitHub url: https://github.com/Sidhnath96/DemoTestingFramework.git
+
+-----------------------------------------------------------------------------------------
+Git Commands
+
+Git Setup on Local System:
+Step 1 : check if git is already installed
+             git --version
+Step 2 : download Git installer from https://git-scm.com/
+Step 3 : Run installer and install git
+Step 4 : Check if git is installed  git --version
+
+Create GitHub Account:
+Step 1 : Goto https://github.com/ and sign up
+Step 2 : Login to GitHub
+Step 3 : Create a new Repository
+
+Git Commands
+
+Step 1 : Create a new folder and open Git Bash/CMD and goto the folder location
+Step 2 : Run Commands
+git config --global user.email "sidhpakhare96@gmail.com"
+git config --global user.name "sidh"
+Step 3 : Initialize Git  git init
+Step 4 : Add some files in the folder
+Step 5 : Run commands git status
+        git add
+        git commit -m “…..”
+Step 6 : Add the remote repo url 
+git remote add origin url_of_hithub_repo
+Step 7 : Push the changes to repository git push -u origin master
+Step 8 : Check output of following commands
+    git log
+     git --help
+
+Git Branches:
+1. What are branches
+2. How to create branch
+3. How to checkout branch
+4. How to merge branch to master
+5. How to delete branch (local and remote)
+
+Step 1 : Create branch   git branch “branch name”
+Step 2 : Checkout branch   git checkout “branch name”
+Step 3 : Make some changes in your project
+  Do add, commit, push  git push -u origin newbranch
+  Check the branch is visible on GitHub repository
+Step 4 : On local checkout master branch - git checkout master
+Step 5 : Merge new branch in master branch git merge “branch name”
+Step 6 : Push the changes - git push -u origin master
+Step 7 : Delete branch
+     git branch -d “branch name”     // will delete from local
+     git push origin --delete “branch name”     // will delete from remote
+ 
+ 
